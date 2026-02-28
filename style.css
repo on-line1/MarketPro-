@@ -1,0 +1,13 @@
+
+body {margin:0;font-family:Arial;background:#f5f5f5;}
+.header {background:#03ac0e;color:white;padding:15px;display:flex;justify-content:space-between;align-items:center;}
+.logo {font-weight:bold;font-size:20px;}
+.search {flex:1;margin:0 15px;padding:8px;border-radius:6px;border:none;}
+.products {display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:15px;padding:20px;}
+.card {background:white;padding:15px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,0.1);transition:.3s;}
+.card:hover {transform:translateY(-5px);}
+.card img {width:100%;border-radius:8px;}
+.card button {background:#03ac0e;color:white;border:none;padding:8px;border-radius:6px;margin-top:8px;cursor:pointer;width:100%;}
+.detail {padding:20px;}
+.checkout-btn {margin:20px;background:#03ac0e;color:white;border:none;padding:12px;border-radius:8px;width:90%;}
+.cart-link {color:white;text-decoration:none;font-weight:bold;}
